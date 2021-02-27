@@ -10,24 +10,136 @@
 
 <body>
   <div class="topnav">
-    <a class="active" href="#home"><img src="UTAlogo.png" alt="logo" width="20px"></a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#main"><img src="UTAlogo.png" alt="logo" width="20px"></a>
+    <a class="active" href="#classes">Classes</a>
+    <a href="#progress">Progress</a>
+    <a href="#transcript">Transcript</a>
     <b href="#user">Gia Nguyen</b>
   </div>
   
-  <ul>
-    <li><a href="#BUS">College of Business</a></li>
-    <li><a href="#EDU">College of Education</a></li>
-    <li><a class="active" href="#ENG">College of Engineering</a></li>
-    <li><a href="#LIB">College of Liberal Arts</a></li>
-    <li><a href="#NUR">College of Nursing and Health Innovation</a></li>
-    <li><a href="#SCI">College of Science</a></li>
-  </ul>
-  
-  <div class="main">
-    <h3>Hello</h3>
+  <div class="weekbar">
+    <div class="daybar">
+      <p>MONDAY</p>
+    </div>
+    <div class="daybar">
+      <p>TUESDAY</p>
+    </div>
+    <div class="daybar">
+      <p>WEDNESDAY</p>
+    </div>
+    <div class="daybar">
+      <p>THURSDAY</p>
+    </div>
+    <div class="daybar">
+      <p>FRIDAY</p>
+    </div>
+    <div class="classMW">
+      <p>BE 1000. UNDERGRADUATE RESEARCH.</p><br>
+      <p>9:30 AM - 11:00 AM</p>
+    </div>
+    <div class="classTTh">
+    </div>
+    <div class="classMW">
+      <p>BE 1000. UNDERGRADUATE RESEARCH.</p><br>
+      <p>9:30 AM - 11:00 AM</p>
+    </div>
   </div>
+
+  <div class="search" style="text-align: center;">
+    <h2>UTA Maverick Course Guide</h2>
+    <input type="text" class="searchTerm" placeholder="Search..">
+  </div>
+
+  <div class="courses">
+    <div class="course">
+      <button type="button" class="collapsible">BE 1000. UNDERGRADUATE RESEARCH.</button>
+      <div class="content">
+        <p>Freshman level undergraduate research. Prerequisite: Departmental good standing and permission of instructor. May be taken a maximum of 3 times.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 1105. MEDICAL APPLICATIONS OF ENGINEERING. </button>
+      <div class="content">
+        <p>Introduction to basic biology and engineering problems associated with living systems and health care delivery. Examples will be used to illustrate how basic concepts and tools of science & engineering can be brought to bear in understanding, mimicking and utilizing biological processes.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 1325. INTRODUCTION TO BIOENGINEERING.</button>
+      <div class="content">
+        <p>Topics include introduction to basic engineering principles and quantitative methods, their applications in analyzing and solving problems in biology and medicine. Also includes new trends in the development of bioengineering and biotechnology.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 2000. UNDERGRADUATE RESEARCH.</button>
+      <div class="content">
+        <p>Sophomore level undergraduate research. Prerequisite: Departmental good standing and permission of instructor. May be taken a maximum of 3 times.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 2300. SPECIAL TOPICS IN BIOENGINEERING. </button>
+      <div class="content">
+        <p>A study of selected topics in Bioengineering. May be repeated when topics vary.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 2310. ENGINEERING APPROACHES TO SOLVING CLINICAL CHALLENGES.</button>
+      <div class="content">
+        <p>In this sophomore course, students will apply engineering principles to find solutions to current clinical problems presented to the class. As small groups, students will work as teams to design a process or system to meet the desired needs of the given clinical challenges based on the necessary constraints. As a final project presentation, students will use what they have learned to identify a new clinical challenge and work to define a meaningful set of manufacturing, fiscal, safety, ethical, and health-related constraints associated with the problem. Students will be highly encouraged to identify solutions to these newly derived clinical problems and to integrate this clinical challenge as part of their future senior design project. Prerequisite: C or better in BE 1105, BE 1325, MATH 2425, CHEM 1442, BE 2315, and either EE 2440 or CSE 2440 or consent of BE undergraduate advisor.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 2315. INTRODUCTORY COMPUTATIONAL TOOLS FOR BIOENGINEERS.</button>
+      <div class="content">
+        <p>Students learn programming concepts (variable, array, command, logics, do-loop, etc.) through the use of SolidWorks, MatLab, and Image J, etc. Students learn to use these computational tools by working on problems and exercises of biological, physiological relevance and clinical applications. Prerequisite: A course grade of C or better in BE 1325, MATH 1426, and ENGR 1250 (or ENGR 1300) or consent of BE undergraduate advisor.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="course">
+      <button type="button" class="collapsible">BE 3000. UNDERGRADUATE RESEARCH.</button>
+      <div class="content">
+        <p>Junior level undergraduate research. Prerequisite: Departmental good standing and permission of instructor. May be taken a maximum 3 times.</p>
+        <div style="text-align: center;">
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
 </body>
 </html>
